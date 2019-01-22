@@ -27,4 +27,5 @@ public abstract class AbstractClusteredQueue<T> implements ClusteredQueue<T> {
     }
 
     protected abstract BlockingQueue<T> queue();
+
 }

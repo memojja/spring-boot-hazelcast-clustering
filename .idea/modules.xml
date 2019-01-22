@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cluster-api/cluster-api.iml" filepath="$PROJECT_DIR$/cluster-api/cluster-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hazelcast.iml" filepath="$PROJECT_DIR$/spring-boot-hazelcast.iml" />
+    </modules>
+  </component>
+</project>
