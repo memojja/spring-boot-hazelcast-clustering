@@ -3,7 +3,7 @@ package com.clusterapi;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public interface ClusteredQueue<T> extends DeployableObject {
+public interface ClusteredQueue<T> extends DestroyableObject {
 
     void put(T value) throws InterruptedException;
 

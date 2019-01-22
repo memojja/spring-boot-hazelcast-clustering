@@ -12,6 +12,6 @@ public interface ClusteringService {
 
     ClusteredAtomicLong getAtomicLong(String id);
 
-    ClusteredAtomicLong getLock(String id);
+    ClusteredLock getLock(String id);
 
 }

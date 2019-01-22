@@ -1,6 +1,6 @@
 package com.clusterapi;
 
-public interface ClusteredLock extends DeployableObject {
+public interface ClusteredLock extends DestroyableObject {
 
     void lock();
 

@@ -1,6 +1,6 @@
 package com.clusterapi;
 
-public interface ClusteredTopic<T> extends DeployableObject {
+public interface ClusteredTopic<T> extends DestroyableObject {
 
     void register(TopicMessageListener<T> listener);
     void unregister(TopicMessageListener<T> listener);

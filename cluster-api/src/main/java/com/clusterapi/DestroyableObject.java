@@ -1,7 +1,7 @@
 package com.clusterapi;
 
 @FunctionalInterface
-public interface DeployableObject {
+public interface DestroyableObject {
 
     void destroy();
 }

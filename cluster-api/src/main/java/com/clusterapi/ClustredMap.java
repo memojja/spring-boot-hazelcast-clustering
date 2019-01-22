@@ -3,7 +3,7 @@ package com.clusterapi;
 import java.util.Map;
 import java.util.Optional;
 
-public interface ClustredMap<K,V> extends DeployableObject {
+public interface ClustredMap<K,V> extends DestroyableObject {
 
     Optional<V> get(final K key);
 

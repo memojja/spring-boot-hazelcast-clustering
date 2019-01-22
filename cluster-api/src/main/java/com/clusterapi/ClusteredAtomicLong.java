@@ -1,6 +1,6 @@
 package com.clusterapi;
 
-public interface ClusteredAtomicLong extends DeployableObject{
+public interface ClusteredAtomicLong extends DestroyableObject {
 
     long increament();
 
