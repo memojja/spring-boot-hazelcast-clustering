@@ -8,7 +8,97 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusterApiApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredAtomicLong.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredLock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredTopic.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteringService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/DeployableObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/DestroyableObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/TopicMessageListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/cluster-jvm/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/ClusterJvmApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmAtomicLong.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmLock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmTopic.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/clusterjvm/ClusterJvmApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/cluster-jvm/src/main/java/com/clusterjvm/clusterjvm/ClusterJvmApplication.java">
           <value>
             <set />
           </value>

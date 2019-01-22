@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cluster-api/cluster-api.iml" filepath="$PROJECT_DIR$/cluster-api/cluster-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cluster-api/cluster-api.iml" filepath="$PROJECT_DIR$/cluster-api/cluster-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cluster-jvm/cluster-jvm.iml" filepath="$PROJECT_DIR$/cluster-jvm/cluster-jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hazelcast.iml" filepath="$PROJECT_DIR$/spring-boot-hazelcast.iml" />
     </modules>
   </component>
