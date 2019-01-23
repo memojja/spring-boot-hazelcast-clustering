@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae283572-3647-4100-82b2-8b7b09e0c9eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HZQuorumListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastAtomicLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastClusteringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQuorumListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmAtomicLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmAtomicLong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cluster-jvm/target/" />
     <ignored path="$PROJECT_DIR$/cluster-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cluster-hazelcast/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,32 +64,39 @@
     <session id="1605577101">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
-          <entry key="xml" value="3" />
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="43" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="43" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1185" />
-          <entry key="xml" value="7" />
+          <entry key="java" value="2083" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1185" />
-          <entry key="XML" value="7" />
+          <entry key="JAVA" value="2083" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -90,119 +104,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmTopic.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastAtomicLong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="324">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="66" column="42" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="42" />
-              <folding>
-                <element signature="e#3636#3637#0" expanded="true" />
-                <element signature="e#3675#3676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="480">
+              <caret line="89" column="37" lean-forward="true" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmMap.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastTopic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="426">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
                 <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredAtomicLong.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastClusteringService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="262">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredLock.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar!/com/google/common/collect/Iterables.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="318" column="24" selection-start-line="318" selection-start-column="24" selection-end-line="318" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteringService.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQuorumListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="254">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Function.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastHealthIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/TopicMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="498">
+              <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,10 +210,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/TopicMessageListener.java">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HZQuorumListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster-api/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -224,6 +246,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -235,7 +258,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cluster-api/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusterApiApplication.java" />
         <option value="$PROJECT_DIR$/cluster-jvm/src/main/java/com/clusterjvm/clusterjvm/ClusterJvmApplication.java" />
         <option value="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/clusterjvm/ClusterJvmApplication.java" />
@@ -250,6 +272,18 @@
         <option value="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmTopic.java" />
         <option value="$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteringService.java" />
         <option value="$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastLock.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastMap.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQueue.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastAtomicLong.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HZQuorumListener.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastHealthIndicator.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastConfig.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastClusteringService.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQuorumListener.java" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastTopic.java" />
       </list>
     </option>
   </component>
@@ -272,6 +306,29 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -288,32 +345,65 @@
             <path>
               <item name="spring-boot-hazelcast" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-hazelcast-clustering" type="462c0819:PsiDirectoryNode" />
-              <item name="cluster-api" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster-hazelcast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-hazelcast" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-hazelcast-clustering" type="462c0819:PsiDirectoryNode" />
-              <item name="cluster-jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster-hazelcast" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-hazelcast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-hazelcast-clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster-hazelcast" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-hazelcast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-hazelcast-clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster-hazelcast" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-hazelcast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-hazelcast-clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster-hazelcast" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clusterhazelcast" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548146994663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548223477308" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.clusterhazelcast" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raven_mehmeta\Desktop\a\spring-boot-hazelcast-clustering" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,56 +444,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="cluster-jvm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="cluster-jvm" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ClusterApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cluster-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.clusterapi.ClusterApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClusterHazelcastApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cluster-hazelcast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clusterhazelcast.ClusterHazelcastApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -418,6 +468,7 @@
     <list>
       <item itemvalue="Spring Boot.ClusterJvmApplication" />
       <item itemvalue="Spring Boot.ClusterApiApplication" />
+      <item itemvalue="Spring Boot.ClusterHazelcastApplication" />
       <item itemvalue="Application.ClusterJvmApplication" />
       <item itemvalue="Application.ClusterJvmApplication (1)" />
     </list>
@@ -439,17 +490,19 @@
       <option name="presentableId" value="Default" />
       <updated>1548140266732</updated>
       <workItem from="1548140271159" duration="310000" />
-      <workItem from="1548143044236" duration="3835000" />
+      <workItem from="1548143044236" duration="5905000" />
+      <workItem from="1548160909871" duration="3062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4145000" />
+    <option name="totallyTimeSpent" value="9277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="212" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -457,7 +510,6 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
@@ -466,12 +518,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.82835823" visible="true" weight="0.27252504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1716418" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarQube" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -509,29 +562,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusterApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusterApiApplication.java" />
     <entry file="file://$PROJECT_DIR$/cluster-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -539,30 +573,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-jvm/src/test/java/com/clusterjvm/clusterjvm/ClusterJvmApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-jvm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/ClusterJvmApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-jvm/src/test/java/com/clusterjvm/clusterjvm/ClusterJvmApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/ClusterJvmApplication.java" />
     <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/AbstractClusteredQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -577,35 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmAtomicLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,13 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,81 +624,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="289">
           <caret line="66" column="42" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="160">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteringService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-api/src/main/java/com/clusterapi/ClusteredAtomicLong.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="34">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="454">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="348">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
@@ -729,6 +683,186 @@
             <element signature="e#847#848#0" expanded="true" />
             <element signature="e#888#889#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-jvm/cluster-jvm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/ClusterHazelcastApplication.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-jvm/src/main/com/clusterjvm/JvmAtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-jvm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastAtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HZQuorumListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar!/com/google/common/collect/Iterables.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="318" column="24" selection-start-line="318" selection-start-column="24" selection-end-line="318" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastClusteringService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastQuorumListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="89" column="37" lean-forward="true" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster-hazelcast/src/main/java/com/clusterhazelcast/HazelcastTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
           </folding>
         </state>
       </provider>

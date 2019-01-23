@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cluster-jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/cluster-hazelcast/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cluster-api" />
+        <module name="cluster-hazelcast" />
+        <module name="cluster-jvm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cluster-api" target="1.8" />
+      <module name="cluster-hazelcast" target="1.8" />
       <module name="cluster-jvm" target="1.8" />
       <module name="spring-boot-hazelcast" target="1.8" />
     </bytecodeTargetLevel>
