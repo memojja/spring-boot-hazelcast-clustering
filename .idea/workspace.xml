@@ -384,7 +384,7 @@
     <property name="SearchEverywhereHistoryKey" value="clusteringService&#9;FILE&#9;file://C:/Users/raven_mehmeta/Desktop/a/spring-boot-hazelcast-clustering/cluster-api/src/main/java/com/clusterapi/ClusteringService.java&#10;JvmClus&#9;FILE&#9;file://C:/Users/raven_mehmeta/Desktop/a/spring-boot-hazelcast-clustering/cluster-jvm/src/main/com/clusterjvm/JvmClusterService.java&#10;ClusteringServ,&#9;PSI&#9;JAVA://com.clusterhazelcast.HazelcastClusteringService" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548224744871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548224952644" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
