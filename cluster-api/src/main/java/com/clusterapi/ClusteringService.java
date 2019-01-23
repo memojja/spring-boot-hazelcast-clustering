@@ -1,5 +1,8 @@
 package com.clusterapi;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public interface ClusteringService {
 
     boolean isLeader();

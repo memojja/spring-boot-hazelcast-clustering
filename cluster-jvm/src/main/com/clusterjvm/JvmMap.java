@@ -18,7 +18,7 @@ public class JvmMap implements ClustredMap {
     }
 
     @Override
-    public Optional get(Object key) {
+    public Optional<String> get(Object key) {
         return Optional.ofNullable(concurrentHashMap.get(key));
     }
 

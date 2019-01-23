@@ -17,7 +17,7 @@
     <module>cluster-api</module>
     <module>cluster-jvm</module>
     <module>cluster-hazelcast</module>
-    <!--<module>application</module>-->
+    <module>application</module>
   </modules>
 
   <properties>

@@ -5,7 +5,7 @@ import java.util.Optional;
 
 public interface ClustredMap<K,V> extends DestroyableObject {
 
-    Optional<V> get(final K key);
+    Optional<String> get(final K key);
 
     void put(final K key, final  V value);
 

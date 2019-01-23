@@ -1,0 +1,4 @@
+clustering:
+  driver: hazelcast
+  hazelcast:
+    quorum: 2

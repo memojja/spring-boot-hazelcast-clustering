@@ -16,7 +16,7 @@ public class HazelcastMap<K,V> implements ClustredMap<K,V> {
     }
 
     @Override
-    public Optional<V> get(K key) {
+    public Optional<String> get(K key) {
         return Optional.ofNullable(map.get(key));
     }
 
